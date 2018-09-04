@@ -19,20 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7C4-GN-r8U">
-                                <rect key="frame" x="206.5" y="98.5" width="155" height="155"/>
+                                <rect key="frame" x="206.5" y="48.5" width="155" height="155"/>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
                                     <action selector="reacordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="75T-h1-hGx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaz-Vd-oWT">
-                                <rect key="frame" x="224" y="261" width="120.5" height="20.5"/>
+                                <rect key="frame" x="224" y="211" width="120.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5L-QC-FTg">
-                                <rect key="frame" x="252" y="289.5" width="64" height="64"/>
+                                <rect key="frame" x="252" y="239.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="1KW-QD-kT4"/>
                                     <constraint firstAttribute="height" constant="64" id="6B1-Ln-yLy"/>
@@ -49,7 +49,7 @@
                             <constraint firstItem="qaz-Vd-oWT" firstAttribute="top" secondItem="7C4-GN-r8U" secondAttribute="bottom" constant="7.5" id="L46-qY-qzc"/>
                             <constraint firstItem="M5L-QC-FTg" firstAttribute="top" secondItem="qaz-Vd-oWT" secondAttribute="bottom" constant="8" id="Lrl-oF-5ba"/>
                             <constraint firstItem="qaz-Vd-oWT" firstAttribute="centerX" secondItem="7C4-GN-r8U" secondAttribute="centerX" id="UcP-WN-lrr"/>
-                            <constraint firstItem="7C4-GN-r8U" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dhF-Mq-9XS"/>
+                            <constraint firstItem="7C4-GN-r8U" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-50" id="dhF-Mq-9XS"/>
                             <constraint firstItem="M5L-QC-FTg" firstAttribute="centerX" secondItem="qaz-Vd-oWT" secondAttribute="centerX" id="ppl-Xq-4uR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
